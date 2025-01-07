@@ -1,38 +1,29 @@
-# Crypto Price Prediction Frontend
+# Arbitrage Opportunity Frontend
 
-This is a React + Next.js TypeScript frontend to visualize cryptocurrency data and predictions fetched from the backend.
-
----
+This is the frontend for visualizing arbitrage opportunities fetched from the backend.
 
 ## Features
+- Fetch arbitrage opportunities from the FastAPI backend.
+- Display token prices, profit, and relevant data in a table format.
+- Responsive UI for easy readability.
 
-- Fetch historical cryptocurrency data.
-- Visualize data using charts.
-
-
----
-
-## Installation
-
-### Prerequisites
-
+## Requirements
 - Node.js 16+
-- API backend running (see [backend setup] - https://github.com/rutuja-1201/Price-Predictor-with-AI--backend).
+- Backend server running
 
-### Setup
+## Setup
 
-1. Clone the repository:
+1. **Clone the repository:**
+   ```bash
+   git clone 
 
-   git clone https://github.com/rutuja-1201/Price-Predictor-with-AI--frontend
-   
-2. Install Dependicies
+2. Install dependencies:
    npm install
 
+3. Configure backend URL: Update the backend URL in the frontend code (pages/index.js):
+   
 
-3. Create a .env.local file in the root directory and add the backend URL: 
-   NEXT_PUBLIC_API_BASE_URL=http://127.0.0.1:8000
+4. Run the development server:
+   npm run dev
 
-4. Start the development server: 
-   npm run dev  
-   Open http://localhost:3000 in your browser.
-
+5. Access the application: Open http://localhost:3000 in your browser.
